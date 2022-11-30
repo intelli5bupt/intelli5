@@ -1,0 +1,71 @@
+.table-wrapper {
+    width: 100%;
+  }
+  
+  .table-wrapper ::v-deep .el-table {
+    /* 表格字体颜色 */
+    color: white;
+    /* 表格边框颜色 */
+    border: 0.5px solid #fcfcfc00;
+    height: 80%;
+  }
+  
+  /* 删除表格下横线 */
+  .table-wrapper ::v-deep .el-table::before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+  }
+  /* 删除单元格底部横线 */
+  .table-wrapper ::v-deep .el-table td {
+    border-bottom: 0px solid #dfe6ec !important;
+  }
+  
+  .table-wrapper ::v-deep .el-table--fit {
+    padding: 20px;
+  }
+  .table-wrapper ::v-deep .el-table,
+  .el-table__expanded-cell {
+    background-color: transparent;
+  }
+  
+  .table-wrapper ::v-deep .el-table tr {
+    background-color: transparent !important;
+  }
+  
+  .table-wrapper ::v-deep .el-table--enable-row-transition .el-table__body td,
+  .el-table .cell {
+    background-color: transparent;
+  }
+  .el-table,
+		.el-table__expanded-cell {
+			background-color: transparent !important;
+      color: #FFF;
+		}
+		/* 表格内背景颜色 */
+		.el-table th,
+		.el-table tr,
+		.el-table td {
+			background-color: transparent !important;
+      color: #FFF;
+}
+.router-link-active {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  $size: 50px;
+  $speed: 3s;
+  $peakopacity:0.6;
+.el-input__inner{
+    background-color:transparent !important;
+      line-height: 20px;
+  }
+  .el-textarea__inner{
+    background-color:transparent !important;
+}

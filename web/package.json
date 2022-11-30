@@ -1,0 +1,66 @@
+{
+  "name": "big-screen-vue-datav",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider;vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider;vue-cli-service build",
+    "lint": "export NODE_OPTIONS=--openssl-legacy-provider;vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@jiaminghi/data-view": "^2.7.3",
+    "@types/echarts": "^4.4.3",
+    "axios": "^1.2.0",
+    "core-js": "^3.6.4",
+    "cors": "^2.8.5",
+    "echarts": "^4.6.0",
+    "element-ui": "^2.15.12",
+    "qs": "^6.11.0",
+    "vue": "^2.6.11",
+    "vue-awesome": "^4.0.2",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "mockjs": "^1.1.0",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-mixed-spaces-and-tabs": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "description": "- 一个基于 vue、datav、Echart 框架的 \" **数据大屏项目** \"，通过 vue 组件实现数据动态刷新渲染，内部图表可实现自由替换。部分图表使用 DataV 自带组件，可进行更改，详情请点击下方 DataV 文档。 - 项目需要全屏展示（按 F11）。 - 项目部分区域使用了全局注册方式，增加了打包体积，在实际运用中请使用**按需引入**。 - 拉取项目之后，建议按照自己的功能区域重命名文件，现以简单的位置进行区分。 - 项目环境：vue-cli-3.0、webpack-4.0、npm-6.13、node-v12.16。 - 请拉取 master 分支的代码，其余是开发分支。",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/zhufei_yao/study_hard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
